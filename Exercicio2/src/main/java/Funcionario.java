@@ -3,7 +3,7 @@ import java.util.Date;
 public class Funcionario {
     private String nome;
     private String matricula;
-    private double salariobase;
+    private double salarioBase;
     private String dataAdmissao;
 
     public Funcionario(String nome, String matricula, double salarioBase, String dataAdmissao) {
@@ -21,15 +21,15 @@ public class Funcionario {
     }
 
     public double getsalarioBase(){
-        return salariobase;
+        return salarioBase;
     }
 
     public double calcularSalario(){
-        return salariobase;
+        return salarioBase;
     }
 
     public double calcularDesconto(){
-        return salariobase * 0.08;
+        return salarioBase * 0.08;
     }
 
     @Override
